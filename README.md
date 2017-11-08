@@ -1,2 +1,2 @@
 # resume
-I used LaTeX for my resume. All files or packages I used are here.
+I made my resume in LaTeX. All files or packages I used are here.
