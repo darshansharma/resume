@@ -18,51 +18,61 @@
 
 \name{\aspace \huge\bf{\href{https://darshan.sh}{Darshan Sharma}}}
 \address{\hspace{10mm}
-~\textbullet~\href{mailto:darshan.sharma@outlook.in}{darshan.sharma@outlook.in} 
+~\textbullet~\href{mailto:thedarshansharma@gmail.com}{thedarshansharma@gmail.com} 
 ~\textbullet~+91-700-974-6321 
 ~\textbullet~{\href{https://darshan.sh}{darshan.sh}}~\aspace}
 
 \begin{resume}
 
 \section{INFO}
-Full Stack Developer and Professional Cloud Architect with \textbf{6} years of experience in designing and implementing scalable web applications
+Full Stack Developer and Associate Cloud Engineer with \textbf{6} years of experience in designing and implementing scalable web applications
 
 \section{EDUCATION}
 B.E in Computer Science (Panjab University) - 2018
 
-\section{EXPERIENCE}  
-\textbf {Tech Lead at MonkAI Technologies \hspace{13mm} May 2020 - Jun 2024}
-\textbf {TechStack:} NodeJs, ReactJs, AWS, MongoDB, Redis, GKE, Flutter
+\section{EXPERIENCE}
 
-\begin{itemize}
-\item Improved React video player load time by 20\% using CloudFront for caching, resulting in better TTFB.
-\item Reduced database expenses by 17\% by integrating Redis caching, optimizing database call efficiency.
-\item Managed 9 Flutter applications featuring in-app purchases, animations, push notifications, maps, and authentication, successfully released on Play/App Store, increasing user engagement by 15%
-\end{itemize}
-\textbf{FullStack Developer at Paxcom \hspace{23mm} May 2019 - Nov 2019}
-\textbf {TechStack:} NodeJs, ReactJs, PostgreSQL, GraphQL
-\begin{itemize}
-\item Reduced node server load by offloading heavy CPU computations (image processing, CSV to HTML conversion) using multithreading and microservices,enhancing server performance by 27%. 
-\end{itemize}
-\textbf{Software Engineer at Block8 \hspace{27mm} May 2018 - May 2019}
-\textbf{TechStack:} ReactJS, NodeJS, MongoDB, Java 
+\\ \textbf {Software Engineer at MonkAI \hspace{23mm} Dec 2019 - Jun 2024} \\
+Improved React video player load time in the app feed by pre-loading just 25\% of the content, fetching the rest only after 90\% viewership of the initial segment, guided by user data analysis \\
+TS: TypeScript, React, Node, AWS-Lambda, S3, MongoDB
 
-\begin{itemize}
-\item Enhanced React-Node app speed by 25\% by optimizing database queries and utilizing CDN for static assets. Developed a custom framework to streamline React project setup, reducing development time by 30%.
-\end{itemize}
+Reduced DB expenses by 10\% by integrating Redis as a caching layer, resulting in a single definitive database call rather than 6-7 heavy mongodb calls. \\
+TS: React, Nest, AWS-RDS, GraphQL, TypeScript \\
+\\
+\textbf{FullStack Developer at Paxcom \hspace{23mm} May 2019 - Nov 2019} \\
+* Decreased the load on the node server backend as it was being used for heavy CPU computations using a load balancer and distributed equal load on 2 separate microservices.
+
+* Achieved a 27\% decrease in server expenses by transitioning from a monolithic architecture to deploying numerous microservices, coupled with the integration of automated scaling and efficient traffic management.\\
+\\
+\\ \textbf{Software Engineer at Block8 \hspace{27mm} May 2018 - May 2019}
+* Optimized a Node.js web application's performance by refining database queries, significantly improving runtime efficiency
 
 
 \section{SKILLS}
 \begin{itemize}
-\item \textbf{Web:} HTML5, CSS3, CSS-Tachyons
+\item \textbf{Web:} HTML5, CSS3
 \item \textbf{Languages:} JavaScript, TypeScript, Python
 \item \textbf{Frameworks:} NodeJs, NestJs, ExpressJs, React
-\item \textbf{Database:} MongoDB, PostgreSQL, Redis
-\item \textbf{DevOps:} GitHub Actions, CI/CD, Jenkins, Sonar, GHAS
-\item \textbf{Tools:} Webpack, Docker, Kubernetes, Terraform, Nginx
-\item \textbf{Cloud:} AWS, GCP, GKE, Lambda-fn, Firebase, S3, EKS, EC2
-\item \textbf{AI:} LLM-Finetuning, CNN, Bedrock, Vertex-AI, Stable-Diffusion
+\item \textbf{Database:} MongoDB, PostgreSQL
+\item \textbf{Tools:} GCP, AWS, Docker, CI/CD, Git
 \end{itemize}
+
+\section{PROJECTS}
+\begin{itemize}
+\item \textbf{Toyota:} Toyota Thailand website in React-Redux and Express with huge inventory management \\
+Tech Stack: React, Typescript, Express, AWS, Jest, Git \\
+
+\item \textbf{MyStake:} Share-trading application on geth, React, MongoDB, Nest and
+enhanced React-Node app speed by 25\% by optimizing database queries and utilizing CDN for static assets. \\
+Tech Stack: React, Typescript, Nest, AWS, Jest, Graphql, Docker \\
+
+\item \textbf{Paxcel Website:} Reduced node server load by offloading heavy CPU computations (image processing, CSV to HTML conversion) using multithreading and microservices,enhancing server performance by 27\% and created microservices and deployment to aws \\
+Tech Stack: React.Js, Typescript, Node, GCP, Kubernetes \\
+
+\item \textbf{Block8 website:} At Block8 we were using React for the front end and Node for the back end. The database queries, which were written inside Lambda functions, were not optimized, performing the cross-operation first and then the selection operation. I tweaked it a bit to perform the selection operation first, followed by joins, and then the final selection. In this way, we were able to reduce some latency.\\
+\item \textbf{MonkAI:} Improved React video player load time by 17\% using CloudFront for caching, resulting in better TTFB.
+\end{itemize}
+
 
 \end{resume}
 \end{document}
