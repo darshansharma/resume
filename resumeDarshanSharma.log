@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.8)  5 AUG 2024 16:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.8)  8 AUG 2024 09:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,7 +437,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--49
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
 
@@ -445,23 +445,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 65--68
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
 
  []
 
 
-Overfull \hbox (4.37006pt too wide) in paragraph at lines 69--71
+Overfull \hbox (4.37006pt too wide) in paragraph at lines 70--72
 \OT1/cmr/m/n/12 us-ing mul-ti-thread-ing and mi-croser-vices,enhancing server p
 er-for-mance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
 
  []
 
@@ -474,15 +479,15 @@ L3 programming layer <2023-02-22>
 Here is how much of TeX's memory you used:
  9697 strings out of 475673
  148513 string characters out of 5780996
- 1861390 words of memory out of 5000000
+ 1862390 words of memory out of 5000000
  30403 multiletter control sequences out of 15000+600000
  514440 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,478b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,316b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on resumeDarshanSharma.pdf (2 pages, 51762 bytes).
+Output written on resumeDarshanSharma.pdf (2 pages, 51884 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream
